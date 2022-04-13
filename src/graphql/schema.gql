@@ -1,0 +1,11 @@
+type Ping {
+  message: String
+}
+
+type Query {
+  ping: Ping
+}
+
+schema {
+  query: Query
+}

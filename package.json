@@ -1,0 +1,50 @@
+{
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "rm -rf dist coverage",
+    "clean:purge": "rm -rf dist coverage node_modules",
+    "lint": "eslint './src/**/*.ts'",
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shopify/jest-koa-mocks": "^3.1.5",
+    "@swc/core": "^1.2.159",
+    "@types/jest": "^27.4.1",
+    "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa__cors": "^3.1.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6",
+    "vite-plugin-node": "^0.0.18"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.2.0",
+    "axios": "^0.26.1",
+    "graphql": "^15.3.0",
+    "koa": "^2.13.4",
+    "koa-graphql": "^0.12.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1"
+  }
+}
