@@ -18,6 +18,7 @@
   "devDependencies": {
     "@shopify/jest-koa-mocks": "^3.1.5",
     "@swc/core": "^1.2.159",
+    "@types/cheerio": "^0.22.31",
     "@types/jest": "^27.4.1",
     "@types/koa": "^2.13.4",
     "@types/koa-logger": "^3.1.2",
@@ -41,6 +42,7 @@
   "dependencies": {
     "@koa/cors": "^3.2.0",
     "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
     "graphql": "^15.3.0",
     "koa": "^2.13.4",
     "koa-graphql": "^0.12.0",
